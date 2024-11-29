@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:rgb(194, 239, 235);
+    font-size: 40px;
+    margin-top: -5px;
+}
+.about_text{
+    background-color: rgb(51, 30, 54);
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding-bottom: 34%;
+}
+p1{
+    font-size: 25px;
+    padding-left: 10px;
+    display: flex;
+    color: rgb(110, 164, 191);
+}
+body{
+    background-color: rgb(65, 51, 122);
+}
+nav{
+    background-color: rgb(51, 30, 54);
+    border-bottom: 5px solid rgba(132, 74, 139, 0.152);
+    box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.img-container{
+    width: 200%;
+    display: inline-flex;
+    overflow: hidden;
+    animation: slide 16s infinite;
+}
+img{
+    width: 100%;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    16%{
+        transform: translateX(0);
+    }
+    32%{
+        transform: translateX(-25%);
+    }
+    64%{
+        transform: translateX(-25%);
+    } 
+    80%{
+        transform: translateX(-50%);
+    }
+    96%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+
+}
+
+.contact{
+    position: absolute;
+    width: 50%;
+    border: 10px solid rgb(194, 239, 235);
+    top: 35%;
+    left: 50%;
+    translate: -50%;
+    border-radius: 10px;
+    background-color: rgb(51, 30, 54);
+    margin-top: -10px;
+    height: 325px;
+    box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(110, 164, 191);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    color: rgb(194, 239, 235);
+    font-weight: lighter;
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    translate: 50%;
+    font-size: 20px;
+}
+.photos{
+    height: 25%;
+}

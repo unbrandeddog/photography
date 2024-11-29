@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "rhys-photography",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
